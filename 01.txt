@@ -532,6 +532,7 @@ img.post_media_photo.image {
     padding:15px;
     margin-bottom:15px;
     border:1px solid {color:Border};
+    border-radius: 10px;
 }
 .q img.useri {
    padding-left: 0;
@@ -546,6 +547,8 @@ img.post_media_photo.image {
 .ask li.comment {
     background-color: {color:Background 2};
     border: 1px solid {color:Border};
+    border-radius: 10px;
+    
 }
 .ask .user {
     padding-bottom: 7px;
