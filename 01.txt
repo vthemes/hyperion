@@ -384,9 +384,9 @@ section {
     margin-top: 5px;
 }
 img.useri {
-    padding: 15px 0 0 15px;
+    margin-left: 15px;
     vertical-align: middle;
-    margin-top: -15px;
+    border-radius: 7px;
     display: inline-block;
     width: 24px;
 }
