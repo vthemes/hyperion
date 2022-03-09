@@ -415,8 +415,9 @@ img.post_media_photo.image {
     max-width:100%;
     display:block;
 }
-.npf_col {
-    margin-bottom: calc(6px + var(--NPF-Image-Spacing));
+.npf_col figure img {
+    object-fit: cover;
+    height:100%;
 }
 .tmblr-full img {
     margin-bottom: 0px!important;
@@ -667,9 +668,6 @@ a.more_notes_link {
     .post img {
         max-width: 100%;
     }
-    .npf_col {
-        margin-bottom: calc(-76px + var(--NPF-Image-Spacing))
-    }
 }
 @media only screen and (max-width:992px) and (min-width:601px) {
     aside {
@@ -696,9 +694,6 @@ a.more_notes_link {
     }
     .post img {
         max-width: 100%;
-    }
-    .npf_col {
-        margin-bottom: calc(-33px + var(--NPF-Image-Spacing));
     }
 }
 @media only screen and (max-width:1100px) and (min-width:993px) {
