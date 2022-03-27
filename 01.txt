@@ -117,7 +117,7 @@
  
 .tippy-tooltip.custom-theme {
     background-color: {color:Background 2};
-    color: black;
+    color: {color:Text};
     border: 1px solid {color:Border};
     text-align:center;
 }
