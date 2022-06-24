@@ -117,7 +117,7 @@
  
 .tippy-tooltip.custom-theme {
     background-color: {color:Background 2};
-    color: {color:Text};
+    color: {color:text};
     border: 1px solid {color:Border};
     text-align:center;
 }
@@ -542,7 +542,12 @@ img.post_media_photo.image {
 }
 .q img.useri {
    padding-left: 0;
-   padding-right: 7px;
+   padding-right: 0px;
+   margin-left: 0px;
+}
+span.as {
+    margin-left: 13px;
+    padding-left: 0px;
 }
 .as {text-transform:lowercase; display:inline-block; padding-bottom: 15px;}
 
